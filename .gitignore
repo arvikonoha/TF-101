@@ -1,0 +1,12 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Exclude the .terraform directory, where Terraform keeps its working directory and plugins
+/.terraform/
+
+# Exclude the .terraform.lock.hcl file, which is used by Terraform to record the
+# provider versions being used for a configuration.
+.terraform.lock.hcl
+
